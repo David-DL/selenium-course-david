@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-25T14:58:04Z" name="Default suite" finished-at="2022-08-25T14:58:39Z" duration-ms="35045">
+    <groups>
+    </groups>
+    <test started-at="2022-08-25T14:58:04Z" name="Default test" finished-at="2022-08-25T14:58:39Z" duration-ms="35045">
+      <class name="com.selenium.test.POMTestCases">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.selenium.test.POMTestCases@f99f5e0]" started-at="2022-08-25T14:58:04Z" name="beforeTest" finished-at="2022-08-25T14:58:07Z" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testCase1()[pri:0, instance:com.selenium.test.POMTestCases@f99f5e0]" started-at="2022-08-25T14:58:07Z" name="testCase1" finished-at="2022-08-25T14:58:39Z" duration-ms="32023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.selenium.test.POMTestCases@f99f5e0]" started-at="2022-08-25T14:58:39Z" name="getResult" finished-at="2022-08-25T14:58:39Z" duration-ms="88" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase1 status=SUCCESS method=POMTestCases.testCase1()[pri:0, instance:com.selenium.test.POMTestCases@f99f5e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.selenium.test.POMTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
